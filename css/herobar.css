@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Kanit:900&display=swap");
+
+.herobar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 4rem 0;
+}
+
+.introduction {
+  width: 50%;
+  padding-top: 100px;
+}
+
+.introduction p {
+  color: orange;
+  font-size: 20px;
+}
+
+.introduction h1 {
+  font-size: 6rem;
+  color: #3c3c3c;
+  font-family: "Kanit", sans-serif;
+  line-height: 100px;
+  background: -webkit-linear-gradient(230deg, #0151ff, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-hire {
+  border-radius: 25px;
+  padding: 10px 42px;
+  margin: 30px 0;
+  background-color: orange;
+  color: white;
+  font-weight: 800;
+  border: 1px solid orange;
+  box-shadow: 0px 8px 15px rgb(255 165 0 / 40%);
+}
+
+.btn-hire:hover {
+  background-color: rgba(255, 166, 0, 0.881);
+  cursor: pointer;
+}
+
+.btn-hire:focus {
+  outline: 3px solid rgb(255, 230, 185);
+}
+
+.display-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.circle-1 {
+  width: 500px;
+  height: 500px;
+  background-color: #2d6bed05;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-2 {
+  width: 440px;
+  height: 440px;
+  background-color: #d3e1ff21;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-3 {
+  width: 380px;
+  height: 380px;
+  background-color: #d3e1ff8a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-4 {
+  width: 320px;
+  height: 320px;
+  background-color: #2d6bed;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-4 img {
+  width: 287px;
+  margin-top: -95px;
+}

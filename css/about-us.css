@@ -1,0 +1,115 @@
+.about-section {
+  padding: 6rem 0;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about-wrapper .display-picture-wrapper {
+  width: 40%;
+  padding-right: 10%;
+}
+
+.about-wrapper .skills-wrapper {
+  width: 60%;
+}
+
+.about-me p {
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+.skills-about-container {
+  padding: 2rem 0;
+}
+
+.my-skills-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-skills-wrapper .skill-bar-wrapper {
+  width: 50%;
+  height: 6px;
+  background-color: lightgray;
+  border-radius: 6px;
+  margin-top: 7px;
+  font-weight: bold;
+}
+
+.skill-bar-wrapper .skill-level {
+  height: 6px;
+  background-color: #fbad50;
+  border-radius: 6px;
+}
+
+.my-skills-wrapper .tick-icon {
+  height: 35px;
+  margin-top: 6px;
+}
+
+.my-skills-wrapper .programming-skill {
+  width: 20%;
+}
+
+.my-skills-wrapper .percentage-value {
+  width: 20%;
+}
+
+.eighty-percentage {
+  width: 80%;
+}
+
+.eighty-five-percentage {
+  width: 85%;
+}
+
+.seventy-percentage {
+  width: 70%;
+}
+
+.seventy-five-percentage {
+  width: 75%;
+}
+
+.display-picture-wrapper .picture-div-one {
+  margin: 4rem;
+  height: 248px;
+  width: 124px;
+  border: 4px solid;
+  border-bottom: 0;
+  border-right: 0;
+  color: #fcad50;
+}
+
+.display-picture-wrapper .picture-div-three {
+  margin: 20px;
+  position: absolute;
+  width: 20%;
+  background-color: #799ff6;
+  height: 43%;
+  border: 2px solid #799ff6;
+  border-radius: 0 50px;
+}
+
+.display-picture-wrapper .picture-div-two {
+  background-color: orange;
+  width: 50%;
+  height: 45%;
+  /* position: absolute; */
+  margin-left: 60%;
+  margin-top: 75%;
+  border-radius: 0 35px;
+}
+
+.display-picture-wrapper .picture-div-two img {
+  position: absolute;
+  margin-top: -300px;
+  margin-left: -167px;
+  height: 429px;
+}
